@@ -8,9 +8,9 @@ abstract class Oracle {
 
     Oracle() {}
 
-    abstract protected boolean canAnswer(Question question)
+    abstract public boolean canAnswer(Question question)
 
-    abstract protected Answer createAnswer(Question question)
+    abstract public Answer createAnswer(Question question)
 
     public Answer answer(Question question) {
         if (canAnswer(question)) {

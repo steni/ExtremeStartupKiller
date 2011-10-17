@@ -21,6 +21,11 @@ public class QuestionTest {
 
     @Test
     public void setQuestion() throws Exception {
-        question.text = "/?q=7d87e2a0:%20what%20is%2014%20plus%2010"
+        final path = "/?"
+        final question = "q=7d87e2a0:%20what%20is%2014%20plus%2010"
+        this.question.text = path + question
+        assert this.question.questionId == "7d87e2a0"
+        assert this.question.rawText == path + question
+        assert this.question.humanReadableRawQuestion == URLDecoder.decode(question)
     }
 }
