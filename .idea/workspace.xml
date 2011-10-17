@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58660112-5bdb-45f2-bc88-2e6a12c5b711" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/doers/QuizMaster.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/doers/QuizReporter.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/oracles/The9f7b32c0Oracle.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/QuizMasterTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/oracles/The932b2b80OracleTest.groovy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/QuizMaster.groovy" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/oracles/CompareNumbersOracleTest.groovy" afterPath="$PROJECT_DIR$/test/CompareNumbersOracleTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Killer.iml" afterPath="$PROJECT_DIR$/Killer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExtremeStartupKiller.groovy" afterPath="$PROJECT_DIR$/src/ExtremeStartupKiller.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/oracles/CannotAnswerQuestionException.groovy" afterPath="$PROJECT_DIR$/src/oracles/CannotAnswerQuestionException.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/oracles/CompareNumbersOracle.groovy" afterPath="$PROJECT_DIR$/src/oracles/CompareNumbersOracle.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/oracles/MathOracle.groovy" afterPath="$PROJECT_DIR$/src/oracles/MathOracle.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/oracles/Oracle.groovy" afterPath="$PROJECT_DIR$/src/oracles/Oracle.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structures/Question.groovy" afterPath="$PROJECT_DIR$/src/structures/Question.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/QuestionTest.groovy" afterPath="$PROJECT_DIR$/test/QuestionTest.groovy" />
-    </list>
+    <list default="true" id="58660112-5bdb-45f2-bc88-2e6a12c5b711" name="Default" comment="" />
     <ignored path="Killer.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -750,7 +731,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now creates missing oracles and tests for these. But lots of duplicates." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -763,6 +744,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Now creates missing oracles and tests for these. But lots of duplicates." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
