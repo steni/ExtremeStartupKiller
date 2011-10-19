@@ -26,7 +26,7 @@ class QuizReporter {
     }
 
     def createTestClass(String testClassContents, String questionId) {
-        def f = new File("../test/The" + questionId + "Oracle.groovy" )
+        def f = new File("../test/The" + questionId + "OracleTest.groovy" )
         f << testClassContents
     }
 }
